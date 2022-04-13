@@ -3,13 +3,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Результат сложения</title>
+<title>Результат вычисления объёма шара</title>
 </head>
 <body>
-<h1>Результат сложения</h1>
+<h1>Результат вычисления объёма шара</h1>
 <h2>Введённое значение радиуса:</h2>
-   <p><strong>Первое слагаемое:</strong> ${first}</p>
-   <p><strong>Второе слагаемое:</strong> ${second}</p>
+   <p><strong>Радиус шара:</strong> ${radius}</p>
    <p><strong>Результат:</strong> ${result}</p>
  </body>
 </html>

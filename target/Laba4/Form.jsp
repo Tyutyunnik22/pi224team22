@@ -3,18 +3,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Калькулятор - сложение целых чисел</title>
+<title>Калькулятор - вычисление объёма шара</title>
 </head>
 <body>
-<h1>Калькулятор - сложение целых чисел</h1>
- <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
- 
-   <label for="first">Первое слагаемое:</label>
-   <input type="text"> name="first" id="first" value="${first}">
-   
-   <label for="second">Второе слагаемое:</label>
-   <input type="text" name="second" id="second" value="${second}">
-   <input type="submit" name="sign" id="Calculate">
- </form>
- </body>
-</html> 
+<h1>Калькулятор - вычисление объёма шара</h1>
+<form action="${pageContext.request.servletContext}/JavaCalculator22" method="post">
+	<label for="radius">Радиус шара:</label>
+    <input type="text" name="radius" id="radius" value="${radius}">
+    <input type="submit" name="sign" id="usatu">
+</form>
+
+</body>
+</html>
