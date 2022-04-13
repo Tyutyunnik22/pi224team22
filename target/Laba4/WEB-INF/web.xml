@@ -1,15 +1,16 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-<web-app>
-	<display-name>Laba4</display-name>
-	
-	<servlet>
-		<servlet-name>Calc</servlet-name>
-		<servlet-class>laba4.Calc.</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Calc</servlet-name>
-		<url-pattern>/Calc4</url-pattern>
-	</servlet-mapping>	
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <welcome-file-list>
+        <welcome-file>Form.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>Calculator22</servlet-name>
+        <servlet-class>laba4.Calculator22</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Calculator22</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 </web-app>
