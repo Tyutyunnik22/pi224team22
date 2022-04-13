@@ -9,7 +9,7 @@
 <h1>Калькулятор - вычисление объёма шара</h1>
 <form action="${pageContext.request.servletContext}/JavaCalculator22" method="post">
 	<label for="radius">Радиус шара:</label>
-    <input type="text" name="radius" id="radius" value="${radius}">
+    <input type="number" name="radius" id="radius" step="0.1" min="1" max="99999" required>
     <input type="submit" name="sign" id="usatu">
 </form>
 
