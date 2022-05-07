@@ -10,7 +10,7 @@
 <h2>Введённое значение радиуса:</h2>
    <p><strong>Радиус шара:</strong> ${radius}</p>
    <p><strong>Результат:</strong> ${result}</p>
-   <form action="Form" method="get">
+   <form action="Calculator22" method="get">
 		<div><input class="btnBack" name="btnBack" id = "btnBack" type="submit" value="Назад"></div>
 	</form>
 </body>
