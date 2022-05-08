@@ -17,7 +17,7 @@
   		transform: translate(-50%, -50%);
 		width: 700px;
 		font-size: 20pt;
-		height: 350px;
+		height: 325px;
 	}
 	div.block {
 		width: 100%;
@@ -30,7 +30,7 @@
 		font-size: 40pt;
 		font-family: Arial Black;
 		color: #FFF875;
-		text-shadow: 1px 1px 1px #000;
+		text-shadow: 2px 2px 2px #8f0037;
 	}
 		   .text{
 		margin-top: 20px;   
@@ -43,7 +43,7 @@
 	   		.btnCalc {
 		margin:0 auto;
     	display:block;
-		width: 140px;
+		width: 180px;
 		height: 65px;
 		font-family: Comic Sans MS;
 		margin-top:15px;
@@ -51,7 +51,7 @@
   		background-color: #ff3d3d;
 		background-image: linear-gradient(315deg, #ff5959 0%, #FAED00 74%);
 		color: #8B0000;
-		font-size: 20pt;
+		font-size: 26pt;
 		position: relative;
 		box-sizing: border-box;
 		transition: all 500ms ease;
@@ -59,7 +59,7 @@
 	}
 	.btnCalc:hover {
 		background: #fff;
-		color: #ff0000;
+		color: #8f0037;
 		box-shadow: inset 0 0 0 3px #FA0060;
 	}
 		.text1 {
