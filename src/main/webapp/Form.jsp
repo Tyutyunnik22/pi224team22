@@ -27,7 +27,7 @@
 	}
 	.headline{
 	    text-align:center;
-		font-size: 40pt;
+		font-size: 30pt;
 		font-family: Arial Black;
 		color: #FFF875;
 		text-shadow: 2px 2px 2px #8f0037;
@@ -35,7 +35,7 @@
 		   .text{
 		margin-top: 20px;   
 	   	text-align:center;
-		font-size: 30pt;
+		font-size: 25pt;
 		font-family: Arial Black;
 		color: #ffff;
 	   }
@@ -51,7 +51,7 @@
   		background-color: #ff3d3d;
 		background-image: linear-gradient(315deg, #ff5959 0%, #FAED00 74%);
 		color: #8B0000;
-		font-size: 26pt;
+		font-size: 25pt;
 		position: relative;
 		box-sizing: border-box;
 		transition: all 500ms ease;
