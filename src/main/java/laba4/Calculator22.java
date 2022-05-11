@@ -38,14 +38,15 @@ public class Calculator22 extends HttpServlet {
 		
 		public void setAsRequestAttributesAndCalculate(HttpServletRequest request) {
 			request.setAttribute("radius", radius);
-			double radius_try;
+			Double radius_try;
 			try{
 				radius_try = Double.parseDouble(radius);
 			}
 			catch(NumberFormatException e){
-				radius_try=0;
+				radius_try=0.0;
 			}
-			result= (4.0/3)*Math.PI*Math.pow(radius_try, 3.0);
+			CalcVSphere sp = new CalcVSphere();
+			result= sp.calculate(radius_try);
 			request.setAttribute("result", result);
 		}
 	}
