@@ -43,7 +43,7 @@
 	   		.btnCalc {
 		margin:0 auto;
     	display:block;
-		width: 180px;
+		width: 205px;
 		height: 65px;
 		font-family: Comic Sans MS;
 		margin-top:15px;
@@ -81,7 +81,7 @@
 		<div class="block">
          <div class="headline"><strong>Калькулятор - вычисление объёма шара</strong></div>
          <form action="${pageContext.request.servletContext}/JavaCalculator22" method="post">
-	     <div class="text"><strong><label for="radius">Радиус шара:</label></strong></div>
+	     <div class="text"><strong><label for="radius">Радиус шара (мм):</label></strong></div>
          <div><strong><input class="text1" type="number" name="radius" id="radius" step="0.001" min="0.001" max="99999" required></strong></div>
 		<div><input class="btnCalc" type="submit" value="Рассчитать" name="sign" id="usatu"></div>
         </div>

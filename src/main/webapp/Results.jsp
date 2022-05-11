@@ -70,9 +70,9 @@
    <div class="block">
       <div class="headline"><strong>Результат вычисления объёма шара</strong></div>
          <div class="text"><strong>Введённое значение радиуса шара:</strong></div> 
-         <div class="text"><em>${radius}</em></div>
+         <div class="text"><em>${radius} мм</em></div>
          <div class="text"><strong>Результат:</strong></div>
-         <div class="text"><em>${result}</em></div>
+         <div class="text"><em>${result} куб.мм</em></div>
          <form action="Calculator22" method="get">
 		<div><input class="btnBack" name="btnBack" id = "btnBack" type="submit" value="Назад"></div>
 	</form>
